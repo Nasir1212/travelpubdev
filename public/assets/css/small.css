@@ -1,0 +1,481 @@
+@media screen and (max-width: 767px) {
+    header{
+        background: white;
+    }
+
+    header a{
+        color: #455873;
+    }
+
+    
+    .navigation_section ul {
+        display: grid !important;
+        grid-template-columns: repeat(4,1fr);
+        padding-left: 0rem !important;
+        width: 90%;
+        margin: auto;
+        row-gap: 1rem;
+    
+    }
+  
+    .dilog_box_section h3, .dilog_box_section p, .dilog_box_section span{
+        color: black;
+    }
+
+
+    .img_container {
+        width: 4rem;
+        height: 3rem;
+    }
+    .navigation_section ul li {
+        width: 4rem;
+        overflow: hidden;
+        text-align: center;
+    }
+    .navigation_section ul li a{
+        font-size: 13px;
+    }
+    .url_icon{
+        /* width: 1rem !important;
+        height: 1rem !important; */
+        display: inline-block;
+        box-sizing: border-box;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        background-repeat: no-repeat;
+        background-position: 50%;
+        background-size: contain;
+        height: 56px;
+        width: 56px;
+        border-radius: 50%;
+       
+    }
+    .url_icon.flight{
+        background-image: url('https://ak-s.tripcdn.com/modules/ibu/online-home/34ff8b9e23ff6e41861bc97b767123f3.34ff8b9e23ff6e41861bc97b767123f3.png');
+        background-color: #1C4AF1;
+        
+    }
+
+  .url_icon.hotel{
+        background-image: url('https://ak-s.tripcdn.com/modules/ibu/online-home/ad98cc14771bfb498144c6737f6c170a.ad98cc14771bfb498144c6737f6c170a.png');
+        background-color: #1C4AF1;
+    }
+
+ 
+    .url_icon.train{
+        background-image: url('https://ak-s.tripcdn.com/modules/ibu/online-home/5f87fcb3da5677ef12c982ef8627aef4.5f87fcb3da5677ef12c982ef8627aef4.png');
+        background-color: #1C4AF1;
+    }
+
+
+    .url_icon.attractins_tour{
+        background-image: url('https://ak-s.tripcdn.com/modules/ibu/online-home/a87b28065a510622ecb66fc5851bdc57.a87b28065a510622ecb66fc5851bdc57.png');
+        background-color: #1C4AF1;
+    }
+ 
+    .url_icon.flight_hotel{
+        background-image: url('https://ak-s.tripcdn.com/modules/ibu/online-home/605d0974d62116b672886edcff508ff2.605d0974d62116b672886edcff508ff2.png');
+    }
+
+
+    
+    .url_icon.flight_hotel{
+        background-image: url('https://ak-s.tripcdn.com/modules/ibu/online-home/605d0974d62116b672886edcff508ff2.605d0974d62116b672886edcff508ff2.png');
+    } 
+
+    
+    .url_icon.destinatios{
+        background-image: url('https://ak-s.tripcdn.com/modules/ibu/online-home/34ff8b9e23ff6e41861bc97b767123f3.34ff8b9e23ff6e41861bc97b767123f3.png');
+    } 
+
+     
+    .url_icon.rewards{
+        background-image: url('https://ak-s.tripcdn.com/modules/ibu/online-home/de8cc180107e6d86a44a44421b3691ec.de8cc180107e6d86a44a44421b3691ec.png');
+    } 
+
+    .OTA_search_header {
+        width: 34rem;
+    }
+
+    .OTA_search_header ul{
+        padding-left: 0rem
+    }
+
+ }
+ @media screen and (max-width: 543px ) {
+   
+    .OTA_search_header ul li i {
+       font-size: 10px;
+      }
+ }
+ 
+ @media screen and (max-width:567px){
+
+
+    .search_section_contaie input {
+        width: 10rem !important;
+        background: #f0f2f5;
+        border-radius: 5px;
+    }
+
+    .search_section_contaie {
+        width: 13rem;
+    }
+ 
+    .header_top_section .right_side{
+        display: none !important;
+     } 
+
+     .mobile_nav_icon{
+        display: block !important;
+        margin-right: 1rem;
+    } 
+    .c_icon_nav {
+        cursor: pointer;
+        transition: 0.5s;
+    }
+    .one, .two, .three {
+        width: 1.5rem;
+        height: 3px;
+        background: black;
+    }
+    .two{
+        margin-top: 3px;
+    }
+    .three{
+        margin-top: 3px;
+    }
+    .dilog_box_section h3 {
+        font-size: 1.3rem;
+    }
+    .dilog_box_section p {
+        font-size: 0.7rem;
+    }
+
+    .OTA_search_header {
+        width: 21rem !important;
+    }
+    .OTA_search_header ul {
+        transform: translate(-1px, 13px);
+    }
+    .OTA_search_header ul li {
+      
+        padding: 0.4rem 0.5rem;
+        font-weight: normal;
+        font-size: 11px;
+    }
+
+    .custom_flex_direction_column{
+        flex-direction: column !important;
+    }
+
+    .OTA_search_block .traveling_action {
+        display: grid !important;
+        grid-template-columns: auto auto;
+    } 
+
+    .OTA_search_block .traveling_action_last_child  {
+        grid-column: 1/3;
+    }
+
+    .flight_type_wrapper {
+        margin-left: 0.5rem !important;
+    }
+
+    /* .slideing_img:not(:first-child) {
+        display: none;
+    } */
+
+    .slideing_img{
+        display: none;
+    }
+
+    /* .slide_container .slideing_img:nth-child(-n+1){
+        display: block !important;
+        }
+         */
+
+    h3.recommended_title {
+        font-size: 1.5rem;
+       
+    }
+    .section_navigate_slide_Img_section {
+        height: 15rem;
+        margin-top: -5rem;
+    }
+    
+    .recommend_module_usp_container {
+        flex-direction: column;
+    }
+    .recommend_module_usp_container_col {
+        margin-bottom: 10px
+    }
+
+    .tab_item_container {
+        margin: 1rem 0rem;
+        gap: 4px;
+    }
+    span.tab_item {
+       
+        font-weight: normal;
+        font-size: 11px;
+        padding: 7px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 2rem;
+        width: 100%;
+    }
+
+    .recommended_module .tab_item_container{
+        display: grid !important;
+        grid-template-columns: repeat(4,1fr);
+    }
+
+    .recommended_module {
+        width: 98%;
+        margin: auto;
+        padding: 0.5rem;
+      
+    }
+
+    .new_recommend_list_container {
+        grid-template-columns: repeat(2,1fr);
+        grid-column-gap: 0.5rem;
+        row-gap: 1rem;
+    }
+
+    .new_recommend_img, .new_recommend_more_card_img {
+        height: 12rem;
+        
+    }
+
+    .new_recommend_title {
+      
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 14px;
+        margin: 0rem;
+    }
+
+    .new_recommend_star_mark.d-flex {
+        font-size: 0.7rem;
+        margin: 0.5rem 0rem;
+    }
+
+    .new_recommend_star_count {
+
+        font-size: 11px;
+    }
+
+    .new_recommend_star_count span {
+       
+        font-size: 10px;
+    }
+
+    .new_recommend_currency_mark {
+        float: left;
+        margin: 10px -3px;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 16px;
+    }
+
+    .new_recommend_more_card_btn {       
+        padding: 0.2rem;
+        font-size: 4px;
+    }
+
+    .new_recommend_more_card_btn h4 {
+        font-size: 11.5px;
+        font-weight: bold;
+        color: white;
+        line-height: 1;
+    }
+
+    .popular_destination_btn_container {
+        grid-template-columns: repeat(2,1fr);
+        gap: 0.4rem;
+    }
+
+    .popular_destination_col {
+       
+        grid-template-columns: repeat(2,1fr);
+        gap: 0.3rem;
+
+    }
+
+    .atol_text {
+        font-size: 0.7rem;
+    }
+    .question_and_answare_row {
+        padding: 0rem 0rem;
+        
+    }
+
+    .link_section {
+        grid-template-columns: repeat(1,1fr);
+        margin-left: 1rem;
+        grid-row-gap: 2rem;
+    }
+
+
+        @keyframes overly_section_anim {
+            from{
+                top: -35rem
+            }
+
+            to{
+                top: 55px; 
+            }
+            
+        }
+
+       
+    
+    .overly_section {
+        position: fixed;
+        background: white;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        overflow: scroll;
+        display: none;
+        top: 55px; 
+        animation: overly_section_anim 0.5s ;
+        
+    }
+
+   
+
+    .coins_icon{
+        background-image: url("https://pages.trip.com/images/components/h5-header/Coins.png");
+    }
+
+    img.silver_icon_img {
+        width: 1.8rem;
+        height: 1.8rem;
+        border-radius: 5rem;
+    }
+
+    .profile_name {
+        font-size: 1.4rem;
+        font-weight: bold;
+        color: gray;
+        margin: 0rem 6px;
+    }
+    .profile_info_container {
+        padding: 1rem;
+        background: linear-gradient(-50deg, #6f7174,#f6f9ff);
+        background-size: cover;
+        background-position: 50%;
+        border-radius: 1rem;
+        margin: 0 1rem;
+    }
+
+    .membership_level_icon{
+        background-image: url("https://pages.trip.com/images/components/h5-header/sliver-medal.png");
+     }
+
+     .membership_level_icon {
+        background-image: url("https://pages.trip.com/images/components/h5-header/sliver-medal.png");
+        width: 2.1rem;
+        height: 1.1rem;
+        background-size: cover;
+        background-position: 50%;
+    }
+
+    .membership_level{
+        background: linear-gradient(90deg,#dfe4ec,#c3cad5);
+    }
+
+    .desc_icon {
+        width: 1rem;
+        height: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transform: translate(276px, -29px);
+    }
+
+   
+
+    .card_link_container {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+    
+    }
+    .card_link {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card_link img {
+        width: 1.7rem;
+        height: 1.7rem;
+    }
+
+    .card_link {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .card_link span {
+        font-size: 14px;
+        color: #455873;
+        font-weight: 400;;
+    }
+
+    .overly_menu_container ul,.overly_menu_container > span {
+        padding-left: 14px;
+    }
+
+    .overly_menu_container ul li {
+        margin-top: 8px;
+        font-size: 11px;
+        color: grey;
+    }
+    .overly_menu_container ul li span {
+        font-size: 13px;
+        font-weight: 400;
+        color: #2e2929;
+    }
+
+    .overly_menu_container > span {
+        margin-bottom: 1rem;
+        font-size: 14px;
+        font-weight: 400;
+        color: #8592a6;
+    }
+ }
+ 
+ 
+ 
+
+ @media screen and (max-width: 455px){
+ 
+    
+     
+ }
+ @media screen and (max-width: 400px) {
+
+
+ }
+ @media screen and (max-width: 360px) {
+   
+     .desc_icon {
+    width: 1rem;
+    height: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate(248px, -29px);
+}
+ 
+ }
+ 

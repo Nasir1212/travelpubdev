@@ -1,0 +1,38 @@
+@media screen and (max-width: 1289px) and (min-width: 990px) {}
+@media screen and (max-width: 980px){
+    .new_recommend_list_container {
+        grid-template-columns: repeat(2,1fr);
+        grid-column-gap: 0.5rem;
+        row-gap: 1rem;
+    }
+
+    .recommended_module .tab_item_container {
+        display: grid !important;
+        grid-template-columns: repeat(4,1fr);
+    }
+
+    .tab_item_container {
+       
+        gap: 0.5rem;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .link_section {
+        
+        grid-template-columns: repeat(2,1fr);
+    }
+   
+}
+
+@media (min-width: 567px){
+  
+    .slide_container .slideing_img:nth-child(-n+3){
+        display: block;
+        }
+        
+
+}
+
+@media (min-width: 1200px){}
+    
